@@ -15,7 +15,7 @@ By analyzing scRNA-seq data, researchers can identify the expression levels of H
 ### How does Trastuzumab target HER2 (mechanism of action)?
 Trastuzumab targets HER2(human epidermal growth factor receptor 2) through several collective mechanisms of action(Maadi et al., 2021):
 1. It binds to the extracellular domain of the HER2 receptor, inhibiting the formation of HER2 homodimers and HER2-HER3 heterodimers, which disrupts crucial downstream signaling pathways like the PI3K/AKT pathway that promote cell survival and proliferation. 
-2. Additionally, trastuzumab induces the internalization of the HER2 receptor, leading to its degradation or recycling, thereby affecting its availability for signaling. 
+2. Trastuzumab induces the internalization of the HER2 receptor, leading to its degradation or recycling, thereby affecting its availability for signaling. 
 3. The drug also facilitates antibody-dependent cellular cytotoxicity (ADCC) by allowing the Fc region of trastuzumab to be recognized by Fcγ receptors on immune effector cells, such as natural killer (NK) cells, which then release cytotoxic molecules that induce apoptosis in HER2-positive tumor cells.
 4. Trastuzumab increases the expression of ADAM17, which inhibits the production of HER-specific ligands, further reducing HER2 activation. 
 ### How does Bevacizumab target VEGF (mechanism of action)?
