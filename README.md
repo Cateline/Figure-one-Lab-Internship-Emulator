@@ -29,7 +29,7 @@ By binding to VEGF, bevacizumab inhibits the binding of VEGF to its cell surface
 5. Mirabelli P, Coppola L, Salvatore M. Cancer Cell Lines Are Useful Model Systems for Medical Research. Cancers (Basel). 2019 Aug 1;11(8):1098. doi: 10.3390/cancers11081098. PMID: 31374935; PMCID: PMC6721418.
 6. Sharma, P., Joshi, R. V., Pritchard, R., Xu, K., & Eicher, M. A. (2023). Therapeutic Antibodies in Medicine. Molecules (Basel, Switzerland), 28(18), 6438. https://doi.org/10.3390/molecules28186438
 
-##The Paper
+## The Paper
 The main reference for this F1L internship emulator project is the study by Kinker et al. (2020) titled Pan-cancer single cell RNA-seq uncovers recurring programs of cellular heterogeneity
 ### What was the Research Focus?
 Kinker and colleagues explored a critical question in cancer biology: Can cancer cell lines, commonly used in research, faithfully replicate the cellular heterogeneity and plasticity that characterize human tumors? In simper terms, how well do cancer cell lines grown in the lab reflect the diversity of cancer cells found within actual tumor samples from patients? 
@@ -37,3 +37,15 @@ To investigate this, the authors employed single-cell RNA sequencing (scRNA-seq)
 The researchers hypothesized that a significant fraction of the intratumoral heterogeneity reflects intrinsic cellular plasticity that may be partially preserved even in the absence of genetic diversity and the native tumor microenvironment.Their primary objective was to determine whether cancer cell lines from the Cancer Cell Line Encyclopedia (CCLE) could mimic the complex cellular heterogeneity observed in actual tumors.
 ### What were the key findings of the study?
 The study identified 12 recurrent heterogeneity programs (RHPs) present in various cell lines, including those associated with the cell cycle, stress/interferon response, epithelial-mesenchymal transition (EMT), senescence, and protein folding/degradation. Many of these RHPs closely resembled heterogeneity patterns observed in human tumor samples, demonstrating that cancer cell lines can effectively replicate key aspects of intratumoral heterogeneity. Further analysis of two head and neck squamous cell carcinoma (HNSCC) cell lines revealed that an epithelial senescence-associated (EpiSen) program is dynamically regulated, linked to reduced proliferation, and results in differential drug sensitivity compared to more proliferative subpopulations. Additionally, the study found that genetic heterogeneity within cell lines contributed primarily to distinct subpopulations, while the continuous RHPs were likely driven by non-genetic mechanisms of cellular plasticity.
+### Further Questions
+#### How did the authors handle the potential caveat of co-culturing cell lines before profiling by scRNA-seq? Why do you think that caveat was or was not adequately addressed?
+The authors acknowledged a potential caveat of their multiplexing approach, where the previously generated CCLE cell line pools (but not the custom HNSCC pool) were co-cultured for 3 days prior to profiling by scRNA-seq. The authors were concerned that this co-culturing could have affected the expression patterns of the cells.
+
+To address this potential caveat, the authors performed several analyses:
+
+1. They showed that the patterns of heterogeneity were as similar between cell lines from the same pool as between cell lines of different pools, suggesting a limited effect of co-culturing.
+
+2. They conducted a control experiment where six cell lines were profiled with and without 3 days of co-culturing. They found that co-culturing had only a modest effect on average gene expression, while the patterns of heterogeneity were highly consistent between the two conditions.
+
+Based on these analyses, the authors concluded that the potential effect of co-culturing was limited, particularly when focusing on the heterogeneity within each cell line, which was the primary focus of their study.
+I think the authors adequately addressed this potential caveat through the control experiments and comparisons. The data they provided suggests that the co-culturing did not significantly alter the key findings
