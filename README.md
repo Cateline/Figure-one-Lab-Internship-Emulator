@@ -62,3 +62,16 @@ The authors note that the discrete subpopulations they identified showed limited
 This suggests the discrete subpopulations may be unique and highly context-dependent, potentially reflecting stochastic or deterministic processes specific to each cell line.
 
 The presence of discrete subpopulations seems to depend on a combination of underlying genetic diversity within the cell line, as well as context-specific non-genetic mechanisms that allow for the emergence of distinct cellular states. Cell lines that lack these genetic or plasticity-driven drivers of discrete subpopulations would likely exhibit more continuous patterns of heterogeneity captured by the RHPs.
+#### What are Recurrent Heterogeneous Programs (RHPs) and how were they defined?
+Recurrent Heterogeneous Programs (RHPs) refer to the recurring patterns of gene expression variability that the authors identified across multiple cancer cell lines. To define these RHPs:
+
+1. The authors first used non-negative matrix factorization (NMF) to identify continuous programs of gene expression variability within each individual cell line. This allowed them to capture both discrete subpopulations and continuous spectra of cellular states.
+
+2. They then filtered out the NMF programs that had limited similarity to all other programs or were associated with technical confounders, retaining 800 robust programs across the cell lines.
+
+3. By hierarchically clustering these 800 NMF programs based on their shared genes, the authors identified 12 distinct RHPs that were recurrently observed as variable across multiple cell lines.
+
+4. Two of these RHPs were associated with cell cycle progression (G1/S and G2/M), while the remaining 10 RHPs reflected other diverse biological processes like stress response, EMT, senescence, and protein homeostasis.
+
+5. 7 out of these 10 non-cell cycle RHPs were highly similar to programs of heterogeneity previously observed in human tumor samples, indicating that they represented biologically relevant patterns of intra-tumoral diversity.
+
