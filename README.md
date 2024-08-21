@@ -49,3 +49,16 @@ To address this potential caveat, the authors performed several analyses:
 
 Based on these analyses, the authors concluded that the potential effect of co-culturing was limited, particularly when focusing on the heterogeneity within each cell line, which was the primary focus of their study.
 I think the authors adequately addressed this potential caveat through the control experiments and comparisons. The data they provided suggests that the co-culturing did not significantly alter the key findings
+#### The authors identified discrete subpopulations of cells within a subset of individual cell lines (Fig. 2A-B). What might be the reason why some cell lines have these discrete subpopulations while others do not?
+The authors found discrete subpopulations of cells within a subset of individual cell lines, and there are a few potential reasons why some cell lines exhibit these subpopulations while others do not:
+1. Genetic heterogeneity:
+The authors found that 39% of the discrete expression-based clusters were significantly associated with specific genetic subclones within the cell lines.
+This suggests that genetic diversity can contribute to the emergence of distinct subpopulations of cells.
+2. Non-genetic mechanisms of cellular plasticity:
+In contrast, the continuous programs of heterogeneity (the "recurrent programs of heterogeneity" or RHPs) were less associated with genetic subclones.
+This implies that non-genetic factors, such as epigenetic regulation and cellular signaling, may drive the continuous patterns of heterogeneity observed in many cell lines.
+3. Context-dependency:
+The authors note that the discrete subpopulations they identified showed limited similarities to one another, both within cell lines of the same cancer type and across different cancer types.
+This suggests the discrete subpopulations may be unique and highly context-dependent, potentially reflecting stochastic or deterministic processes specific to each cell line.
+
+The presence of discrete subpopulations seems to depend on a combination of underlying genetic diversity within the cell line, as well as context-specific non-genetic mechanisms that allow for the emergence of distinct cellular states. Cell lines that lack these genetic or plasticity-driven drivers of discrete subpopulations would likely exhibit more continuous patterns of heterogeneity captured by the RHPs.
