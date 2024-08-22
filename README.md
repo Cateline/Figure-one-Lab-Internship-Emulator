@@ -74,4 +74,18 @@ Recurrent Heterogeneous Programs (RHPs) refer to the recurring patterns of gene 
 4. Two of these RHPs were associated with cell cycle progression (G1/S and G2/M), while the remaining 10 RHPs reflected other diverse biological processes like stress response, EMT, senescence, and protein homeostasis.
 
 5. 7 out of these 10 non-cell cycle RHPs were highly similar to programs of heterogeneity previously observed in human tumor samples, indicating that they represented biologically relevant patterns of intra-tumoral diversity.
+#### How do the identified RHPs relate to in vivo programs of heterogeneity in tumors, and what evidence supports this relationship?
+The relationship between the identified Recurrent Heterogeneous Programs (RHPs) in cell lines and in vivo programs of heterogeneity in tumors is that many of the RHPs observed in lab-grown cell lines are strikingly similar to those found in actual tumor samples from patients. This suggests that the diversity in gene expression observed within cell lines reflects the heterogeneity seen in tumors in vivo.
 
+##### Evidence Supporting This Relationship:
+1. Significant Overlap in Signature Genes:
+Seven out of the ten RHPs identified in cell lines showed a highly significant overlap with in vivo programs of heterogeneity found in various tumor types, such as head and neck squamous cell carcinoma (HNSCC), melanoma, glioblastoma, and ovarian cancer. The similarity in the signature genes indicates that these RHPs are not unique to cell lines but are also present in tumors.
+2. High Correlation of Cell Scores:
+
+There was a high correlation between the gene expression patterns (cell scores) of RHPs in cell lines and the corresponding in vivo programs. This means that the way genes are expressed in these programs is consistent between cell lines and tumors, reinforcing the idea that RHPs in cell lines mimic real tumor behavior.
+3. Combined Analysis of Cell Lines and Tumors:
+
+When cells from both cell lines and tumors were analyzed together, common patterns of gene expression variation were observed. This combined analysis demonstrated that the RHPs identified in cell lines are also present in tumors, showing that the same biological processes underlie the heterogeneity in both settings.
+4. Functional Relevance:
+
+The RHPs correspond to biologically significant processes, such as cell cycle regulation and stress responses, which are crucial in both cancer cell lines and tumors. The fact that these processes are observed across multiple cell lines and tumor samples further supports the relevance of RHPs to in vivo tumor heterogeneity.
